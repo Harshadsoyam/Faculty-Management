@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 { 
+    margin-top: 30px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 5px;
+}
+.h4, h4{
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    line-height: 1.8rem;
+    border-radius: 5px;
+    color: black;
+    background-color: rgba(240, 235, 235, 0.655);
+}
+.username1 {
+    margin-bottom: 0.9rem;
+}
+.user-1 {
+    margin-right: 0.5rem;
+}
+.input-user {
+    padding: 4px;
+}
+.password1 {
+    margin-bottom: 0.9rem;
+}
+.pass-1 {
+    margin-right: 0.5rem;
+}
+.input-pass {
+    padding: 4px;
+}
+.btn {
+    margin-top: 0.4rem;
+    cursor: pointer;
+    font-weight: 500;
+    width: 25%;
+    padding: 2px 10px 2px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(3, 3, 255);
+}
+.btn:hover{
+    color: rgb(3, 3, 255);
+    background: whitesmoke;
+}

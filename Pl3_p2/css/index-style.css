@@ -1,0 +1,307 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --navbar-height: 59px;
+}
+
+
+/* Landing page */
+
+.std{
+    background-color: rgb(255, 30, 5);
+    margin-bottom: 0.6rem;
+    margin-right: 0.6rem;
+    font-size: 1.04rem;
+}
+.fac{
+    background-color: rgb(5, 106, 236);
+    margin-bottom: 0.6rem;
+    margin-right: 0.6rem;
+    font-size: 1.04rem;
+}
+.adm{
+    background-color: rgb(255, 175, 3);
+    margin-bottom: 0.6rem;
+    margin-right: 0.6rem;
+    font-size: 1.04rem;
+}
+img{
+    padding: 5px 5px 5px;
+}
+.h2, h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.53125rem;
+}
+
+.h1, h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 1.3rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000;
+}
+
+.h2, .h3, .h5, .h6, h2, h3, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #000;
+}
+.hh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.p1{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.main{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 3px 30px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px 25px;
+}
+.content a{
+    color: white;
+    display: block;
+    padding: 6px 10px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(240, 235, 235, 0.655);
+}
+.mycenter {
+    display: block;
+    padding: 0px 50px 0px;
+    text-align: center; 
+}
+.mycenter p{
+    display: block;
+    padding: 20px 0px 20px;
+   background-color: white;
+}
+.log{
+    display: -webkit-inline-box;
+}
+
+
+
+
+
+
+
+
+/* .btn-danger, .btn-danger.disabled, .btn-danger.focus, .btn-danger.hover:not(:disabled):not(.disabled), .btn-danger:disabled, .btn-danger:focus, .btn-danger:hover:not(:disabled):not(.disabled), .btn-dark, .btn-dark.disabled, .btn-dark.focus, .btn-dark.hover:not(:disabled):not(.disabled), .btn-dark:disabled, .btn-dark:focus, .btn-dark:hover:not(:disabled):not(.disabled), .btn-info, .btn-info.disabled, .btn-info.focus, .btn-info.hover:not(:disabled):not(.disabled), .btn-info:disabled, .btn-info:focus, .btn-info:hover:not(:disabled):not(.disabled), .btn-light, .btn-light.disabled, .btn-light.focus, .btn-light.hover:not(:disabled):not(.disabled), .btn-light:disabled, .btn-light:focus, .btn-light:hover:not(:disabled):not(.disabled), .btn-outline-danger.hover:not(:disabled):not(.disabled), .btn-outline-danger:hover:not(:disabled):not(.disabled), .btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-dark.hover:not(:disabled):not(.disabled), .btn-outline-dark:hover:not(:disabled):not(.disabled), .btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-info.hover:not(:disabled):not(.disabled), .btn-outline-info:hover:not(:disabled):not(.disabled), .btn-outline-info:not(:disabled):not(.disabled).active, .btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-light.hover:not(:disabled):not(.disabled), .btn-outline-light:hover:not(:disabled):not(.disabled), .btn-outline-light:not(:disabled):not(.disabled).active, .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-primary.hover:not(:disabled):not(.disabled), .btn-outline-primary:hover:not(:disabled):not(.disabled), .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-secondary.hover:not(:disabled):not(.disabled), .btn-outline-secondary:hover:not(:disabled):not(.disabled), .btn-outline-secondary:not(:disabled):not(.disabled).active, .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-success.hover:not(:disabled):not(.disabled), .btn-outline-success:hover:not(:disabled):not(.disabled), .btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .btn-outline-warning.hover:not(:disabled):not(.disabled), .btn-outline-warning:hover:not(:disabled):not(.disabled), .btn-outline-warning:not(:disabled):not(.disabled).active, .btn-outline-warning:not(:disabled):not(.disabled):active, .btn-primary, .btn-primary.disabled, .btn-primary.focus, .btn-primary.hover:not(:disabled):not(.disabled), .btn-primary:disabled, .btn-primary:focus, .btn-primary:hover:not(:disabled):not(.disabled), .btn-secondary, .btn-secondary.disabled, .btn-secondary.focus, .btn-secondary.hover:not(:disabled):not(.disabled), .btn-secondary:disabled, .btn-secondary:focus, .btn-secondary:hover:not(:disabled):not(.disabled), .btn-success, .btn-success.disabled, .btn-success.focus, .btn-success.hover:not(:disabled):not(.disabled), .btn-success:disabled, .btn-success:focus, .btn-success:hover:not(:disabled):not(.disabled), .btn-warning, .btn-warning.disabled, .btn-warning.focus, .btn-warning.hover:not(:disabled):not(.disabled), .btn-warning:disabled, .btn-warning:focus, .btn-warning:hover:not(:disabled):not(.disabled), .show>.btn-danger.dropdown-toggle, .show>.btn-dark.dropdown-toggle, .show>.btn-info.dropdown-toggle, .show>.btn-light.dropdown-toggle, .show>.btn-primary.dropdown-toggle, .show>.btn-secondary.dropdown-toggle, .show>.btn-success.dropdown-toggle, .show>.btn-warning.dropdown-toggle {
+    color: #fff;
+}
+.mycenter {
+    text-align: center;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-warning {
+    color: #000;
+    background-color: #fcb92c;
+    border-color: #fcb92c;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: initial;
+    border: 1px solid transparent;
+    padding: .3rem .85rem;
+    font-size: .875rem;
+    border-radius: .2rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.mylabel {
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+a {
+    cursor: pointer;
+}
+a {
+    color: #3b7ddd;
+    text-decoration: none;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.mb-2 {
+    margin-bottom: .5rem!important;
+}
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.d-block {
+    display: block!important;
+}
+img{
+    vertical-align: middle;
+}
+.card {
+    margin-bottom: 24px;
+    box-shadow: 0 0 0.875rem 0 rgb(33 37 41 / 5%);
+}
+.text-center {
+    text-align: center!important;
+}
+.py-2 {
+    padding-top: .5rem!important;
+    padding-bottom: .5rem!important;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x)/2);
+    padding-left: calc(var(--bs-gutter-x)/2);
+    margin-top: var(--bs-gutter-y);
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.row {
+    --bs-gutter-x: 24px;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)*-1);
+    margin-right: calc(var(--bs-gutter-x)/-2);
+    margin-left: calc(var(--bs-gutter-x)/-2);
+}
+
+.content {
+    padding: 1.5rem 1.5rem .75rem;
+    flex: 1;
+    width: 100vw;
+    max-width: 100vw;
+    direction: ltr;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+main {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f5f7fb;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+:root {
+    --fc-list-event-dot-width: 10px;
+    --fc-list-event-hover-bg-color: #f5f5f5;
+}
+:root {
+    --fc-daygrid-event-dot-width: 8px;
+}
+:root {
+    --bs-blue: #3b7ddd;
+    --bs-indigo: #0a0a0a;
+    --bs-purple: #6f42c1;
+    --bs-pink: #e83e8c;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #fcb92c;
+    --bs-green: #1cbb8c;
+    --bs-teal: #20c997;
+    --bs-cyan: #17a2b8;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #3b7ddd;
+    --bs-secondary: #6c757d;
+    --bs-success: #1cbb8c;
+    --bs-info: #17a2b8;
+    --bs-warning: #fcb92c;
+    --bs-danger: #dc3545;
+    --bs-light: #f5f7fb;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: "Inter","Helvetica Neue",Arial,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg,hsla(0,0%,100%,0.15),hsla(0,0%,100%,0));
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+} */
